@@ -6,12 +6,13 @@
 # Q -> 7
 # R -> 1
 
-num1 = 15
-num2 = 2
+num1 = int(input("First Number is"))
+num2 = int(input("Second Number is"))
 
-div = 15 / 2
-
-print("div is : ", div)
+quotient = int(num1 // num2) # using floor division to get the quotient
+remainder = int(num1 % num2) # using the
+print("quotient is : ", quotient)
+print("remainder is : ", remainder)
 
 
 # Task 2 for the Today
