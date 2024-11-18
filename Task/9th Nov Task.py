@@ -19,3 +19,18 @@ print("remainder is : ", remainder)
 # Take a 3 input from the user
 # perform the sub, sub, mul and div
 
+num1 = int(input("First Number is"))
+num2 = int(input("Second Number is"))
+num3 = int(input("Third Number is"))
+
+sum = num1 + num2 + num3
+sub = num1 - num2 - num3
+mul = num1 * num2 * num3
+div = num1/num2
+
+print("sum is", sum)
+print("sub is", sub)
+print("mul is", mul)
+print("div is", div)
+
+
